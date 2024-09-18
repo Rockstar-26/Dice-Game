@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click", () => {
 
     let randomDiceName = "dice" + randomNumber1 + ".png";
 
-    let randomImage = "./Dicee Challenge - Starting Files/images/" + randomDiceName;
+    let randomImage = "./images/" + randomDiceName;
 
     let image1 = document.querySelectorAll("img")[0];
 
@@ -14,7 +14,7 @@ document.getElementById("btn").addEventListener("click", () => {
 
     let randomDiceName2 = "dice" + randomNumber2 + ".png";
 
-    let randomImage2 = "./Dicee Challenge - Starting Files/images/" + randomDiceName2;
+    let randomImage2 = "./images/" + randomDiceName2;
 
     let image2 = document.querySelectorAll("img")[1];
 
